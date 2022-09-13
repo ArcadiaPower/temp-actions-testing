@@ -1,0 +1,9 @@
+name: Test Checking Out Code
+on:
+  workflow_call:
+jobs:
+  checkout-testing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
